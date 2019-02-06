@@ -24541,14 +24541,14 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactDom = require("react-dom");
 
-var _App = _interopRequireDefault(require("./App.js"));
+var _App = _interopRequireDefault(require("./App"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var root = document.querySelector("[data-root]");
 (0, _reactDom.render)(_react.default.createElement(_App.default, null, "This is React!"), root);
 console.log("Hello world!");
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./App.js":"App.js"}],"../rbd/pnpm-volume/1a726695-2b15-455c-a645-752be27657cc/node_modules/.registry.npmjs.org/parcel-bundler/1.11.0/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./App":"App.js"}],"../rbd/pnpm-volume/1a726695-2b15-455c-a645-752be27657cc/node_modules/.registry.npmjs.org/parcel-bundler/1.11.0/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -24575,7 +24575,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36734" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33479" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
